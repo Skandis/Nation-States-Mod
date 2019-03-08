@@ -1,0 +1,8 @@
+﻿name="test"
+path="mod/test/"
+replace_path = "history/states"
+replace_path = "history/countries"
+replace_path = "common/country_tags"
+replace_path = "common/state_category"
+replace_path = "localisation/countries_l_english"
+supported_version="1.6.0"
