@@ -1,0 +1,119 @@
+division_template = {
+	name = "Infanterie-Division"
+
+	division_names_group = GER_Inf_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        recon = { x = 0 y = 0}
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Panzer-Division"
+
+	division_names_group = GER_Arm_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+      		light_sp_artillery_brigade = { x = 0 y = 2}
+       		light_sp_artillery_brigade = { x = 1 y = 2}
+		light_tank_destroyer_brigade = { x = 2 y = 0}
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+        artillery = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+    division= {	
+            division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		    }
+            location = 3499 
+            division_template = "Infanterie-Division"
+            start_experience_factor = 8
+        }
+    division= {	
+            division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		    }
+            location = 3499 
+            division_template = "Infanterie-Division"
+            start_experience_factor = 8
+        }
+    division= {	
+            division_name = {
+				is_name_ordered = yes
+				name_order = 3
+		    }
+            location = 6521
+            division_template = "Infanterie-Division"
+            start_experience_factor = 10
+        }
+    division= {	
+            division_name = {
+				is_name_ordered = yes
+				name_order = 4
+		    }
+            location = 6521
+            division_template = "Infanterie-Division"
+            start_experience_factor = 15
+        }
+    division= {	
+            division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		    }
+            location = 9456
+            division_template = "Infanterie-Division"
+            start_experience_factor = 5
+        }
+    division= {	
+            division_name = {
+				is_name_ordered = yes
+				name_order = 6
+		    }
+            location = 6521
+            division_template = "Panzer-Division"
+            start_experience_factor = 3
+        }
+    division= {	
+            division_name = {
+				is_name_ordered = yes
+				name_order = 7
+		    }
+            location = 3499
+            division_template = "Panzer-Division"
+            start_experience_factor = 3
+        }
+    division= {	
+            division_name = {
+				is_name_ordered = yes
+				name_order = 8
+		    }
+            location = 9456
+            division_template = "Panzer-Division"
+            start_experience_factor = 3
+        }
+}

@@ -1,0 +1,2 @@
+FCB = "countries/Free City  Of Berlin.txt"
+GRE = "Grand Reich of Europe.txt"

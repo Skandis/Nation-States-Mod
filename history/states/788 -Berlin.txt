@@ -1,0 +1,46 @@
+state={
+	id=788
+	name="STATE_788"
+	manpower = 35000000
+	resources={
+		steel=30
+		oil=10
+		rubber=8
+		aluminum=5
+		tungsten=4
+		chromium=2
+	}
+
+	state_category = mega_city
+
+
+	history={
+		owner = FCB
+		victory_points = {
+			6521 100
+		}
+		buildings = {
+			infrastructure = 10
+			arms_factory = 5
+			industrial_complex = 15
+			anti_air_building = 3
+			air_base = 3
+			synthetic_refinery = 2
+			3499={
+				bunker = 4
+			}
+			9456={
+				bunker = 4
+			}
+			6521={
+				bunker = 7
+			}
+
+		}
+		add_core_of = FCB
+	}
+
+	provinces={
+		3499 6521 9456  
+	}
+}
